@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        Media Tag : image , audio & video
+    -->
+    <h1>Media Tags</h1>
+    <img src="assets/image.png" width="550px" alt="Their is something wrong">
+    <audio src="assets/Udaarian - Satinder Sartaj (Ukulele Cover).mp3" controls></audio>
+    <video src="assets/video.mp4" controls width="550px"></video>
+
+    <hr>
+
+    <h1>Table Tag</h1>
+    <!-- 
+        table tag
+        tr : table row
+        td/th : table data / table head
+    -->
+
+    <table border="1" cellpadding="30" cellspacing="0">
+        <tr>
+            <th>S.no</th>
+            <th>Name</th>
+            <th>City</th>
+            <th>Blood Group</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Nitish</td>
+            <td>Noida</td>
+            <td>O+</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Suresh</td>
+            <td>Delhi</td>
+            <td>A-</td>
+        </tr>
+    </table>
+
+    <br><br>
+    <table bgcolor="blue" border="1" cellspacing="0" cellpadding="10">
+        <tr>
+            <th>No </th>
+            <th>Full Name </th>
+            <th>Position </th>
+            <th>Salary</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td bgcolor="red">Bill Gates</td>
+            <td>FOunder Microsoft</td>
+            <td>$1000</td>
+        </tr>
+        <tr>
+            <td align="center" bgcolor="green"><b>2</b></td>
+            <td>Steve Jobs</td>
+            <td>Founder Apple</td>
+            <td>$1200</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Larry Page</td>
+            <td>Founder Google</td>
+            <td>$1100</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Mark Zuckerberg</td>
+            <td>FOunder Facebook</td>
+            <td>$1300</td>
+        </tr>
+    </table>
+
+    <!-- 
+        column merge : colspan (horizontal merge)
+        row merge : rowspan (vertical merge)
+    -->
+    <br><br>
+    <table border="1">
+        <tr align="center">
+            <th>Name</th>
+            <th>Age</th>
+            <th>Height</th>
+        </tr>
+        <tr align="center">
+            <td>Ahmed</td>
+            <td>20</td>
+            <td>173</td>
+        </tr>
+        <tr align="center">
+            <td colspan="2" bgcolor="yellow">double col span</td>
+            <td>A</td>
+        </tr>
+        <tr align="center">
+            <td rowspan="2">row span</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr align="center">
+            <td>f</td>
+            <td>c</td>
+        </tr>
+    </table>
+</body>
+</html>
